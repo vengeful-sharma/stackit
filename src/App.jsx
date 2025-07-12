@@ -7,6 +7,8 @@ import QuestionDetail from './app/pages/QuestionDetails';
 import Tags from './app/pages/Tags';
 import Login from './app/pages/Login';
 import Header from './app/components/Header';
+import Footer from './app/components/Footer';
+import BackToTop from './app/components/BackToTop';
 
 
 function App() {
@@ -24,6 +26,9 @@ function App() {
             <Route path="/login" element={<Login />} />
           </Routes>
         </main>
+        <Footer/>
+        <BackToTop />
+
       
        
       </div>
