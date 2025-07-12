@@ -1,15 +1,16 @@
 import React from 'react';
-import Header from './components/Header'; // adjust the path if needed
+import { BrowserRouter as Router } from 'react-router-dom';
+import Header from './app/components/Header';
 
 function App() {
   return (
-    <div>
-      <Header />
-      <main className="p-4">
-        <h1 className="text-2xl font-semibold text-gray-800">Welcome to StackIt</h1>
-        {/* Add content below */}
-      </main>
-    </div>
+    <Router>
+      <div className="min-h-screen bg-[#0D0D0D] text-white font-poppins">
+        <Header />
+        
+      
+      </div>
+    </Router>
   );
 }
 
