@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { ChevronDown, Menu, X } from 'lucide-react';
 
-const Header = () => {
+const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -174,4 +174,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default Navbar;
